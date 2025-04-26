@@ -4,5 +4,5 @@ channels:
   - conda-forge
   - anaconda
 dependencies:
-  - python=3.7
-  - pip=22
+  - python=3.13
+  - pip=25
