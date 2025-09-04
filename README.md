@@ -41,14 +41,14 @@ python3 setup.py install
 </details>
 
 
-## Supported File Formats
+## Supported File Formats:
 
 The analyzer supports multiple file formats including:
 - Windows executables (.exe, .dll)
 - Linux executables (.elf, .so)
 - Android executables (.apk)
 
-### ToDo:
+### To Do:
 
 - Scripts (.ps1, .bat)
 - Scripts (.sh)
