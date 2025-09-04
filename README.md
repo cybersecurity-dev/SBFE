@@ -45,7 +45,7 @@ python3 setup.py install
 
 The analyzer supports multiple file formats including:
 - Windows executables (.exe, .dll)
-- Linux executables (.elf)
+- Linux executables (.elf, .so)
 - Android executables (.apk)
 
 ### ToDo:
