@@ -1,0 +1,2 @@
+malware_dataset_dir: /path/to/mlw_dataset
+benign_dataset_dir: /path/to/bng_dataset
