@@ -10,6 +10,16 @@ def print_banner():
     f_s = Figlet(font='slant')
     print(f_s.renderText('Static Feature Extraction Tool for Potentially Malicious OS Files'))
 
+def print_status():
+    table = """
+    |            | Metadata | Header |  Permission    |
+    |------------|----------|--------|----------------|
+    | Windows    | ☐        | ☐      |  not available |
+    | Linux      | ☐        | ☐      |  not available |
+    | Android    | ☐        | ☐      |  ☐             |
+    """
+    print(table)
+
 import yaml
 def read_system_conf(param_cfg : Path = Path('conf/sfet.yml')):
     try:
